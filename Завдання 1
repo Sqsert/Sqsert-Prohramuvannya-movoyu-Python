@@ -1,0 +1,21 @@
+a = int(input ("Введіть а: "))
+
+while (a < 0):
+
+    a = int(input ("Введіть ще раз а: "))
+
+b = int(input ("Введіть b: "))
+
+while (b < 0):
+
+    b = int(input ("Введіть ще раз b: "))
+
+if a > b:
+    r = 5 * a + b
+elif a == b:
+    r = -125
+else:
+    r = (a - 5) / b
+
+
+print("Результат обчислення виразу:", r)
